@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Condiment);
+/* CSS Document */
+body {
+	background-image:url(images/backgroundking.png);
+	background-color: black;
+	background-position:center top;
+	background-repeat: no-repeat;
+	margin: 0px;
+	z-index:199;
+}
+
+#header {
+	background-image: url(images/Headerwolf.png);
+	background-position:top left;
+	background-repeat: no-repeat;
+	margin: 0px;
+	margin-left:10px;
+	position:relative;
+	padding-top:250px;
+	z-index: 400;	
+}
+
+#header_links{
+	width:547px;
+	height:58px;
+	background-color: #6c6a6a;
+	-moz-border-radius-bottomright: 46px;
+	-webkit-border-bottom-right-radius: 46px;
+	border-bottom-right-radius: 46px;
+	-moz-border-radius-bottomleft: 46px;
+	-webkit-border-bottom-left-radius: 46px;
+	border-bottom-left-radius: 46px;
+	box-shadow: 0px 0px 3px 3px #3d3d3d inset;
+	margin-left: 640px;	
+}
+
+#header_links a {
+	width: 182px;
+	float:left;
+	display: inline-block;
+	text-align:center;
+	font-size: 29px;
+	font-family: "Condiment";
+	padding-top: 10px;
+	color: #dbbc9d;
+	text-decoration: none;
+}
+
+#header_links a:hover{
+	color: #b39a81;
+	
+	}
+#page {
+	color:#2b0f0a;
+	height:763px;
+	background-color: rgba(202,194,194,0.8);
+	margin-top: -163px;
+	position:relative;
+	z-index:200;
+}
+
+#page p {
+	
+}
+
+
+#content {
+	padding-top:100px;
+	
+}
+
+#contentleft {
+	width: 350px;
+	font-family:condiment;
+	float: left;
+	padding: 50px 150px;
+	font-size:72px;
+	color:#AF6E2D;
+	text-indent:-50px;
+	line-height:1.2;
+}
+
+#contentright {
+	background-image:url(images/contentborders.png);
+	width: 450px;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+	font-family:"Arial", Gadget, sans-serif;
+	float: left;
+	text-align:center;
+	padding: 75px 100px;
+}
+#pics {
+	clear:both;
+}
+#wolf {
+	margin:20px -205px -29px -25px;
+	position:relative;
+	z-index:999;
+	
+}
+
+#polaroid1 {
+	
+	margin:0px -45px -72px -15px;
+	position:relative;
+	z-index:998;
+}
+
+#polaroid2 {
+	margin:0px -55px -15px -45px;
+	position:relative;
+	z-index:997;
+}
+
+#polaroid3 {
+	margin: 0px 0px -72px -25px;
+	position:relative;
+	z-index:996;
+}
+
+#footer {
+	color:white;
+	position:relative;
+	text-align:right;
+	float:right;
+	
+        
+}
+#pageouter{
+	width: 1304px;
+	height: 770px;
+	margin: 0 auto;
+	position:relative;
+	z-index:800;
+}
